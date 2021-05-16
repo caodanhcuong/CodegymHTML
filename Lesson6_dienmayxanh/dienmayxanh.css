@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(240, 238, 238);
+    font: 12px/18px Arial,Helvetica,sans-serif;
+    color: #333;
+}
+table {
+    width: 600px;
+}
+
+#short_input {
+    width: 290px;
+    height: 25px;
+    float: center;
+}
+
+#select_input {
+    width: 290px;
+    height: 25px;
+    float: center;
+}
+
+#red_price {
+    color: rgb(255, 0, 0);
+    text-align: right;
+}
+
+.invoice {
+    width: 598px;
+    height: 25px;
+}
+
+.back_ground {
+    background-color: rgb(233, 245, 245);
+}

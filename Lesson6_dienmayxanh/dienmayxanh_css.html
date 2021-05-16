@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dienmayxanh.css">
+    <title>Điện máy xanh</title>
+</head>
+<body>
+<table align="center" style="background-color: rgb(255, 255, 255);">
+    <tr>
+        <td>
+            <!--1 table product imfomation-->    
+    <table align="center">
+        <tr>
+            <td> <img src="imgs/samsung.jpg" alt="dieuhoasamsung" width="90px"> <span style="font-size: x-small;">x-xóa</span> </td>
+            <td>
+                <h2> Máy lạnh Comfee 1 HP SIRIUSA-9E</h2>
+            </td>
+            <td> 
+                <b id="red_price">9.810.000 <sup>đ</sup></b>
+                <del style="font-size: 12px;">10.910.000 </del>
+            </td>
+        </tr>
+        <tr>
+            <td> </td> <!--Trống-->
+            <td><h3>Chọn một trong hai khuyến mãi:</h3>
+                <label for="" ></label>
+                <input type="radio" name="khuyenmai">
+                - Không tặng ống đồng và vật tư <br>
+                Chỉ giao hàng, không lắp đặt. <br>
+
+                <label for="" ></label>
+                <input type="radio" name="khuyenmai"> 
+                Tặng Combo vật tư (Dây điện từ dàn lạnh đến dàn nóng, Simili, miễn phí tối đa 5 mét ống đồng, ống nước) trị giá 650.000đ 
+                <a href="#"> (click xem chi tiết) </a>  <br>
+                -Miễn phí công lắp đặt và hút chân không trị giá 450.000đ 
+            </td>
+            <td> </td> <!--Trống--> 
+        </tr>
+        <tr>
+            <td> </td> <!--Trống-->
+            <td style="background-color: rgb(247, 240, 177);" colspan="2">  
+                Giảm  <span id="red_price"> 850.000 <sup>đ</sup> </span> còn <span id="red_price">9.810.000 <sup>đ</sup>  </span>
+            </td>
+        </tr>
+        <tr>
+            <td> </td> <!--Trống-->
+            <td>Màu trắng</td>
+            <td>
+                <button>-</button>
+                <b>3</b>
+                <button>+</button>
+            </td>
+        </tr>
+    </table>
+
+<!--2 table discount voucher-->    
+    <table align="center"  class="back_ground">
+        <tr>
+            <hr>
+            <td colspan="2" style="background-color: rgb(255, 255, 255);">
+                <a href="#"> Sử dụng mã giảm giá </a>
+            </td> 
+        </tr>
+        <tr>
+            <td>Tạm tính (3 sản phẩm)</td>
+            <td style="text-align:right">29.430.000 <sup>đ</sup></td>
+        </tr>
+        <tr>
+            <td>Giảm:</td>
+            <td style="text-align:right">-2.550.000 <sup>đ</sup></td>
+        </tr>
+        <tr>
+            <td> <b>Tổng tiền:</b> </td>
+            <td style="text-align: right;font-weight: bolder;" id="red_price"> 26.850.000 <sup>đ</sup> </td>
+        </tr>
+    </table>
+
+<!--3 Table Customer imformation-->   
+    <table align="center">
+        <tr>
+            <hr>
+            <td colspan="2">THÔNG TIN KHÁCH HÀNG:</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="">Anh</label> <input type="radio" name="customer_info"> 
+                <label for="">Chị</label> <input type="radio" name="customer_info">
+            </td>  
+        </tr>
+        <tr>
+            <td>
+                <input id="short_input" type="text" placeholder="Họ và tên"> 
+            </td>
+            <td> 
+                <input id="short_input" type="text" placeholder="Số điện thoại"> 
+            </td>
+        </tr>
+    </table>
+
+<!--4 Table Logitic Solution-->
+    <table  align="center">
+        <tr>
+            <td colspan="2">CHỌN CÁCH THỨC NHẬN HÀNG:</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="">Giao tận nơi</label> <input type="radio" name="logitics">
+                <label for="">Nhận tại siêu thị</label> <input type="radio" name="logitics">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+    <!--Adress--><table class="back_ground">
+                    <tr>
+                        <td>Chọn địa chỉ để biết thời gian nhận hàng(nếu có)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <label id="short_input"></label>
+                        <select id="short_input">
+                            <option value="">Hồ Chí Minh</option>
+                            <option value="">Nghệ An</option>
+                        </select>
+                        <label ></label>
+                        <select id="short_input">
+                            <option value="">Vinh</option>
+                            <option value="">Diễn Châu</option>
+                        </select> <br>
+                        <label ></label>
+                        <select id="short_input">
+                            <option value="">Cửa Nam</option>
+                            <option value="">Trường Thi</option>
+                        </select>
+                        <input type="text"  id="short_input" placeholder="Số nhà, tên đường,...">
+                    </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="text" class="invoice" placeholder="Yêu cầu khác (không bắt buộc)">
+            </td>
+        </tr>
+    </table>
+<!--5 Table Other person logitics-->
+    
+    <table align="center"  class="back_ground">
+        <tr style="background-color: rgb(255, 255, 255);">
+            <td colspan="2">
+                <input type="checkbox"> Gọi người khác nhận hàng (nếu có)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="">Anh</label> <input type="radio" name="customer_info"> 
+                <label for="">Chị</label> <input type="radio" name="customer_info">
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <input id="short_input" type="text" placeholder="Họ và tên người nhận"> 
+            </td>
+            <td>
+                <input id="short_input" type="text" placeholder="Số điện thoại người nhận"> 
+            </td>
+        </tr>
+    </table>
+<!--6 Table Invoice-->
+    
+    <table align="center" class="back_ground">
+        <tr style="background-color: rgb(255, 255, 255);">
+            <td>
+                <input type="checkbox"> Xuất hóa đơn công ty
+            </td>
+        </tr>
+        <tr>
+            <td> <input class="invoice" type="text" placeholder="Tên công ty"> </td>
+        </tr>
+        <tr>
+            <td> <input class="invoice" type="text" placeholder="Địa chỉ công ty"> </td>
+        </tr>
+        <tr>
+            <td> <input class="invoice" type="text" placeholder="Mã số thuế"> </td>
+        </tr>
+    </table>
+<!--7 Table Book order-->
+    <table align="center">
+        <tr>
+            <hr>
+            <td><b>Tổng tiền </b> </td>
+            <td style="font-weight: bolder; text-align: right;" id="red_price">26.850.000 <sup>đ</sup></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(241, 130, 2); color: rgb(255, 255, 255);font-weight: bolder;text-align: center;" colspan="2">ĐẶT HÀNG</td>
+        </tr>
+        <tr>
+            <td colspan="2"> <p style="font-size: small;text-align: center;">Bạn có thể chọn hình thức thanh toán sau khi đặt hàng</p></td>
+        </tr>
+    </table>
+
+<!--The End-->  
+
+        </td>
+    </tr>
+</table>
+ 
+</body>
+</html>

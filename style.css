@@ -1,0 +1,69 @@
+*{margin: 0px; padding: 0px;}
+#all {
+    width: 960px;
+    min-height: 100px;
+    /* display: flex; Nếu trong thẻ div thì phải có thuộc tính này min height mới phát huy tác dụng */
+    background-color: red;
+    margin: auto;
+}
+
+header {
+    width: 900px;
+    height: 100px;
+    background-color: aqua;
+    margin: auto;
+    border:  15px solid green;
+    padding: 10px;
+    box-sizing: border-box;   /* border sẽ cộng vào bên trong chứ ko ra ngoài */
+}
+
+nav{
+    width: 900px;
+    height: 100px;
+    background-color: aqua;
+    margin: auto;
+    border:  15px solid green;
+    padding: 10px;
+    box-sizing: border-box;   /* border sẽ cộng vào bên trong chứ ko ra ngoài */
+    margin-top: 20px;
+}
+#content {
+    width: 960px;
+    min-height: 100px;
+    margin-top: 10px;
+    background-color: lemonchiffon;
+    display: flex;
+}
+
+#left {
+    float: left;
+}
+
+article {
+    width: 700px;
+    height: 200px;
+    background-color: grey;
+    margin-left: 30px;
+}
+
+section {
+    width: 700px;
+    height: 200px;
+    background-color: hotpink;
+    margin-left: 30px;
+}
+
+
+aside {
+    width: 200px;
+    height: 400px;
+    background-color: indianred;
+    float: left;
+}
+
+footer {
+    width: 960px;
+    height: 100px;
+    background-color: lawngreen;
+    
+}

@@ -1,0 +1,42 @@
+*{margin: 0px;padding: 0px;}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 80px;
+    margin-left: 40px;
+}
+
+nav ul {
+    line-height: 40px;
+}
+
+nav ul li {
+    list-style: none; /* mất dấu tròn ở trước thẻ li*/
+    padding: 0px 5px;
+    position: relative;
+    border-bottom: 1px solid #864919;
+}
+
+nav ul li:hover {
+    background-color: #954510; /* ul li cha*/
+}
+nav ul li:hover ul {
+    display: block;
+    position: absolute;
+    left: -110px;
+    top: 0px;
+}
+nav ul li ul {
+    width: 100px;
+    display: none; /* Không hiển thị những thứ trong ul thứ 2 */
+}
+
+nav ul li ul li {
+    width: 100px;
+    background-color: rgb(163, 114, 7);
+}
+
+nav ul li ul li a {
+    margin-left: 20px;
+}

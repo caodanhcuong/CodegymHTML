@@ -1,0 +1,33 @@
+.grid-container{
+    display: grid;
+    grid-column-gap: 50px; 
+    /* Khoảng cách giữa các cột */
+    grid-row-gap: 50px ; 
+    /* Khoảng cách giữa các hàng */
+    /* grid-gap: 50px; chung */
+    background-color: green;
+    padding: 10px;
+    grid-template-columns: auto auto auto;
+}
+.grid-item {
+    background-color: rgb(95, 233, 95);
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.grid-item1, .grid-item2,.grid-item3,.grid-item4,.grid-item5,
+.grid-item6, .grid-item7,.grid-item8,.grid-item9{
+    background-color: rgb(202, 240, 131);
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item1 {
+ grid-column-start: 1;
+ grid-column-end: 3;   
+}

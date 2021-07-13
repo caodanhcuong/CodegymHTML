@@ -1,0 +1,107 @@
+*{margin: 0px; padding: 0px;box-sizing: border-box;font-family: Arial, Helvetica, sans-serif;}
+@media screen and (min-width:480px) {
+    #all {
+        background:#f2f2f2;
+        padding: 10px;
+    }
+    header{
+        background: white;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    nav{
+        width: 100%;
+        min-height: 50px;
+        background:#3a3a3a;
+        text-align: center;
+    }
+    nav ul li {
+        list-style: none;
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+        line-height: 30px;
+    }
+
+    #content1, #content2{
+        background: white;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    
+    h4{
+       height: 50px;
+       line-height: 50px;
+    }
+    img {
+        padding: 10px;
+    }
+    .image {
+        background:#b3b3b3;
+        min-height: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #about_me {
+        background: white;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    #about_me div {
+        min-height: 100px;
+        background-color: #b3b3b3;
+    }
+    #post {
+        background: white;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    #post div {
+        min-height: 100px;
+        background: #b3b3b3;
+    }
+    #follow_me {
+        background: white;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    footer{
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px;
+        background: #979595;
+        min-height: 100px;
+        text-align: center;
+        line-height: 100px;
+        font-weight: bolder;
+    }
+}
+
+@media screen and (min-width:800px) {
+    
+    
+    nav ul li{
+        width: 100px;
+        margin-left: 5px;
+        line-height: 50px;
+        float: left;
+    }
+    #main {
+        width: 65%;
+        float: left;
+        
+    }
+    #right {
+        width: 35%;
+        float: left;
+        padding-left: 10px;
+    }
+    footer {
+        clear: both;
+        position: relative;
+        top: 10px;
+    }
+}
